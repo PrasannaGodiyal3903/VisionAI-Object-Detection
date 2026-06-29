@@ -1,7 +1,13 @@
-ultralytics==8.0.42
-uvicorn[standard]==0.20.0
-gunicorn==20.1.0
-fastapi[all]==0.89.1
+ultralytics>=8.3.0
+torch>=2.7.0
+torchvision>=0.22.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.35.0
+gunicorn>=23.0.0
+pillow
+numpy
+pandas
+python-multipart
 loguru
 pytest
 pytest-cov

@@ -39,5 +39,5 @@ Detection Results
 
 ## Deployment
 
-Backend: Render
-Frontend: Streamlit Cloud
+Backend: Render https://visionai-api-z7iu.onrender.com/docs
+Frontend: Streamlit Cloud https://visionai-object-detection-4dbu6pciyqsy44yb4pxpkp.streamlit.app/

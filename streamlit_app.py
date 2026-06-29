@@ -109,7 +109,7 @@ if uploaded_file:
         with st.spinner("Running YOLOv8..."):
 
             img_response = requests.post(
-                "http://127.0.0.1:8001/img_object_detection_to_img",
+                "https://visionai-api-z7iu.onrender.com/img_object_detection_to_img",
                 params={
                     "confidence": confidence
                 },
@@ -117,7 +117,7 @@ if uploaded_file:
             )
 
             json_response = requests.post(
-                "http://127.0.0.1:8001/img_object_detection_to_json",
+                "https://visionai-api-z7iu.onrender.com/img_object_detection_to_json",
                 params={
                     "confidence": confidence
                 },
